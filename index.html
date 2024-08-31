@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deepfake Detection</title>
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <div class="loader d-flex">
@@ -23,6 +24,7 @@
       <div class="text-loader text-97">97</div>
       <div class="text-loader text-100">100</div>
     </div>
+    
     <div class="fixed-p d-flex">
       <div class="flex-p-content d-flex-c">
         <div class="cntr-p title-size" style="
@@ -30,8 +32,8 @@
         <div class="cntr-p2 title-size" style="
         font-size: 4rem">Detection</div>
         <div class="nav d-flex">
-          <a class="info" href="#">About</a>
-          <a class="contact" href="#">Team Details</a>
+          <a class="info" href="about.html" onclick="window.location.href='about.html'; return false;">About</a>
+          <a class="contact" href="team.html">Team Details</a>
         </div>
       </div>
     </div>
@@ -50,15 +52,27 @@
     <div id="four" class="section d-flex">
       <h1 class="heading-text">Feature4</h1>
     </div>
-    <div id="img-four" class="section-img"></div>
- 
+    <div id="img-four" class="section-img" style="object-fit: fill;"></div>
 
- 
     <div id="last" class="section d-flex">
-  
-    </div>
-
-
+      <div class="button-container">
+        <button style="
+        background-color: #333; 
+        color: #fff; 
+        font-weight: bold; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
+        border: none; 
+        cursor: pointer; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, background-color 0.3s ease;"
+        onmouseover="this.style.backgroundColor='#444'; this.style.transform='scale(1.05)';"
+        onmouseout="this.style.backgroundColor='#333'; this.style.transform='scale(1)';"
+        onclick="window.location.href='upload.html';">
+       Upload Your Video
+        </button>
+      </div>
+    </div>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="descrambler.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -66,3 +80,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+

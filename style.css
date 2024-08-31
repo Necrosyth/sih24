@@ -138,26 +138,40 @@ body::-webkit-scrollbar {
 
 #img-one {
   background-image: url(./Assets/Images/one.jpg);
+  object-fit: fill;
   
 }
 
 #img-two {
   background-image: url(./Assets/Images/two.jpg);
+  object-fit: fill;
 }
 
 #img-three {
   background-image: url(./Assets/Images/three.jpg);
+  object-fit: fill;
 }
 #img-four {
   background-image: url(./Assets/Images/four.jpg);
+  object-fit: fill;
 }
 
 #img-five {
   background-image: url(./Assets/Images/five.jpg);
+  object-fit: fill;
 }
 #img-six {
   background-image: url(./Assets/Images/six.jpg);
+  object-fit: fill;
 }
 #img-seven {
   background-image: url(./Assets/Images/seven.jpg);
+  object-fit: fill;
+}
+
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 700px;
+  z-index: 1000;
 }
